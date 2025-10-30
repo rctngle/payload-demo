@@ -1,3 +1,11 @@
+name = "payload-on-pages"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+# 👇 required when using wrangler.toml with Pages
+pages_build_output_dir = ".vercel/output/static"
+
+# Your Hyperdrive binding (already created)
 [[hyperdrive]]
 binding = "HYPERDRIVE"
 id = "6b5a3d312ed94c6596b580c95ba65b19"
