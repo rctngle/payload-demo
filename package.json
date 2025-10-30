@@ -57,13 +57,12 @@
     "pnpm": "^9 || ^10"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "sharp",
-      "esbuild",
-      "unrs-resolver"
-    ]
-  },
-  "overrides": {
-    "undici": "6.19.8"
+    "onlyBuiltDependencies": ["sharp","esbuild","unrs-resolver"],
+    "overrides": {
+      "undici": "6.19.8",
+      "next>undici": "6.19.8",
+      "payload>undici": "6.19.8",
+      "@payloadcms/*>undici": "6.19.8"
+    }
   }
 }

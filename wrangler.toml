@@ -9,6 +9,3 @@ pages_build_output_dir = ".open-next"
 [[hyperdrive]]
 binding = "HYPERDRIVE"
 id = "6b5a3d312ed94c6596b580c95ba65b19"
-
-[alias]
-"node:sqlite" = "./shims/node-sqlite.js"
