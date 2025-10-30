@@ -3,7 +3,7 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
 # 👇 required when using wrangler.toml with Pages
-pages_build_output_dir = ".vercel/output/static"
+pages_build_output_dir = ".open-next/assets"
 
 # Your Hyperdrive binding (already created)
 [[hyperdrive]]
