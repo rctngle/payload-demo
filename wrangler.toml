@@ -9,3 +9,4 @@ pages_build_output_dir = ".open-next/assets"
 [[hyperdrive]]
 binding = "HYPERDRIVE"
 id = "6b5a3d312ed94c6596b580c95ba65b19"
+
