@@ -16,7 +16,7 @@
     "test": "pnpm run test:int && pnpm run test:e2e",
     "test:e2e": "cross-env NODE_OPTIONS=\"--no-deprecation --no-experimental-strip-types\" pnpm exec playwright test",
     "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts",
-    "opennext:build": "opennextjs-cloudflare build"
+    "opennext:build": "opennextjs-cloudflare build && mv .open-next/worker.js .open-next/_worker.js"
   },
   "dependencies": {
     "@eslint/eslintrc": "^3.3.1",
